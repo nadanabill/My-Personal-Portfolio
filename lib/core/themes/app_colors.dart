@@ -24,4 +24,5 @@ class AppColors {
   static const Color lightGray900 = Color(0xFF111827);
   static const Color lightGray950 = Color(0xFF030712);
   static const Color white = Color(0xFFFFFFFF);
+  static const Color logoColor = Color(0xFFC548E8);
 }
