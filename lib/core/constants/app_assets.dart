@@ -5,8 +5,19 @@ class AssetsPaths {
   static const String icons = '$assets/icons';
 }
 
-class AppImages {}
+class AppImages {
+  static const String nadaLogo = '${AssetsPaths.images}/nada_logo.png';
+}
 
-class AppIcons {}
+class AppIcons {
+  static const String darkModeIcon = '${AssetsPaths.icons}/drk_mood.svg';
+  static const String locationIcon = '${AssetsPaths.icons}/location.svg';
+  static const String githubIcon = '${AssetsPaths.icons}/github.png';
+  static const String linkedinIcon = '${AssetsPaths.icons}/linkedin.png';
+  static const String gitLabIcon = '${AssetsPaths.icons}/gitlab.png';
+  static const String facebookIcon = '${AssetsPaths.icons}/facebook.png';
+  static const String emailIcon = '${AssetsPaths.icons}/email.png';
+  static const String youtubeIcon = '${AssetsPaths.icons}/youtube.png';
+}
 
 class AppSvgs {}

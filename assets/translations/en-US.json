@@ -1,6 +1,13 @@
 {
-  "arabic" : "Arabic",
-  "english" : "English",
-  "language" : "Language",
-  "home_screen" : "Home Screen"
+  "arabic": "Arabic",
+  "english": "English",
+  "language": "Language",
+  "home_screen": "Home Screen",
+  "About": "About",
+  "Contact": "Contact",
+  "Work": "Work",
+  "Download_cv": "Download CV",
+  "Available for new projects": "Available for new projects",
+  "Egypt" : "Egypt",
+  "Hi, I’m Nada \uD83D\uDC4B" : "Hi, I’m Nada \uD83D\uDC4B"
 }

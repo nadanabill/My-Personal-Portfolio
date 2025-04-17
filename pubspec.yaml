@@ -31,7 +31,11 @@ dependencies:
   flutter_screenutil:
   cached_network_image:
   flutter_svg:
+  simple_shadow:
+# Utils
+  url_launcher:
   flutter_lints: ^4.0.0
+
 
 dev_dependencies:
   flutter_test:
