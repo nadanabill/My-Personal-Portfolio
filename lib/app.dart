@@ -15,7 +15,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'My Personal Portfolio',
-      theme: darkAppTheme(context),
+      theme: lightAppTheme(context),
+      darkTheme: darkAppTheme(context),
+      themeMode: ThemeMode.dark,
       navigatorKey: AppRouter.navigatorKey,
       onGenerateRoute: appRouter.generateRoute,
       initialRoute: Routes.mainPage,
