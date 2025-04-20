@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '/ui/web/widgets/about_me_widget.dart';
 
 import '/core/helpers/spaces.dart';
 import '/ui/web/widgets/about_section_widget.dart';
@@ -10,15 +11,13 @@ class WebLayout extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 80.0, vertical: 30),
-      child: Column(
-        children: [
-          const WebHeaderWidget(),
-          verticalSpace(70),
-          const AboutSectionWidget(),
-        ],
-      ),
+    return Column(
+      children: [
+        const WebHeaderWidget(),
+        const AboutSectionWidget(),
+        verticalSpace(30),
+       const AboutMeWidget(),
+      ],
     );
   }
 }
