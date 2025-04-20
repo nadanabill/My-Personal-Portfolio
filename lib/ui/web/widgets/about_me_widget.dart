@@ -1,5 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import '/ui/web/widgets/title_box_widget.dart';
 
 import '../../../core/constants/app_assets.dart';
 import '../../../core/helpers/spaces.dart';
@@ -17,17 +18,7 @@ class AboutMeWidget extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 140, vertical: 60),
       child: Column(
         children: [
-          Container(
-            decoration: BoxDecoration(
-              color: AppColors.logoColor.withOpacity(0.5),
-              borderRadius: BorderRadius.circular(12),
-            ),
-            padding: const EdgeInsets.all(5),
-            child: Text(
-              'About Me'.tr(),
-              style: AppTextStyles.font14MediumDarkGray600(context),
-            ),
-          ),
+          TitleBoxWidget(text: 'About Me'.tr()),
           verticalSpace(20),
           Row(
             children: [

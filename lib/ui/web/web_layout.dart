@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '/ui/web/widgets/skills_section_widget.dart';
 import '/ui/web/widgets/about_me_widget.dart';
 
 import '/core/helpers/spaces.dart';
@@ -16,7 +17,8 @@ class WebLayout extends StatelessWidget {
         const WebHeaderWidget(),
         const AboutSectionWidget(),
         verticalSpace(30),
-       const AboutMeWidget(),
+        const AboutMeWidget(),
+        const SkillsSectionWidget(),
       ],
     );
   }
