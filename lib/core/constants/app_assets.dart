@@ -7,10 +7,11 @@ class AssetsPaths {
 
 class AppImages {
   static const String nadaLogo = '${AssetsPaths.images}/nada_logo.png';
+  static const String nada = '${AssetsPaths.images}/nada.png';
 }
 
 class AppIcons {
-  static const String darkModeIcon = '${AssetsPaths.icons}/drk_mood.svg';
+  static const String darkModeIcon = '${AssetsPaths.icons}/dark_mood.svg';
   static const String locationIcon = '${AssetsPaths.icons}/location.svg';
   static const String githubIcon = '${AssetsPaths.icons}/github.png';
   static const String linkedinIcon = '${AssetsPaths.icons}/linkedin.png';
