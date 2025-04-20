@@ -13,47 +13,50 @@ class WebHeaderWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      children: [
-        Image.asset(
-          AppImages.nadaLogo,
-          height: 100,
-        ),
-        const Spacer(),
-        HeaderTextButtonWidget(text: 'About'.tr(), onPressed: () {}),
-        horizontalSpace(10),
-        HeaderTextButtonWidget(
-          onPressed: () {},
-          text: 'Work'.tr(),
-        ),
-        horizontalSpace(10),
-        HeaderTextButtonWidget(
-          onPressed: () {},
-          text: 'Contact'.tr(),
-        ),
-        horizontalSpace(10),
-        IconButton(
-          onPressed: () {},
-          icon: SvgPicture.asset(AppIcons.darkModeIcon),
-        ),
-        horizontalSpace(10),
-        SizedBox(
-          height: 40,
-          child: ElevatedButton(
-            style: ElevatedButton.styleFrom(
-              backgroundColor: AppColors.darkGray900,
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(12),
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 80.0, vertical: 30),
+      child: Row(
+        children: [
+          Image.asset(
+            AppImages.nadaLogo,
+            height: 100,
+          ),
+          const Spacer(),
+          HeaderTextButtonWidget(text: 'About'.tr(), onPressed: () {}),
+          horizontalSpace(10),
+          HeaderTextButtonWidget(
+            onPressed: () {},
+            text: 'Work'.tr(),
+          ),
+          horizontalSpace(10),
+          HeaderTextButtonWidget(
+            onPressed: () {},
+            text: 'Contact'.tr(),
+          ),
+          horizontalSpace(10),
+          IconButton(
+            onPressed: () {},
+            icon: SvgPicture.asset(AppIcons.darkModeIcon),
+          ),
+          horizontalSpace(10),
+          SizedBox(
+            height: 40,
+            child: ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                backgroundColor: AppColors.darkGray900,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(12),
+                ),
+              ),
+              onPressed: () {},
+              child: Text(
+                'Download CV'.tr(),
+                style: AppTextStyles.font16MediumDarkGray50(context),
               ),
             ),
-            onPressed: () {},
-            child: Text(
-              'Download CV'.tr(),
-              style: AppTextStyles.font16MediumDarkGray50(context),
-            ),
-          ),
-        )
-      ],
+          )
+        ],
+      ),
     );
   }
 }
