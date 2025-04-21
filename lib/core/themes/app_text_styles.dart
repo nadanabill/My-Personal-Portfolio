@@ -19,6 +19,13 @@ class AppTextStyles {
         color: AppColors.darkGray600,
       );
 
+  static TextStyle font16NormalDarkGray500(context) => const TextStyle(
+        fontFamily: fontFamily,
+        fontSize: 16,
+        fontWeight: FontWeight.w400,
+        color: AppColors.darkGray500,
+      );
+
   static TextStyle font16MediumDarkGray50(context) => const TextStyle(
         fontFamily: fontFamily,
         fontSize: 16,
@@ -59,5 +66,12 @@ class AppTextStyles {
         fontSize: 18,
         fontWeight: FontWeight.w400,
         color: AppColors.darkGray600,
+      );
+
+  static TextStyle font20SemiBoldDarkGray900(context) => const TextStyle(
+        fontFamily: fontFamily,
+        fontSize: 20,
+        fontWeight: FontWeight.w600,
+        color: AppColors.darkGray900,
       );
 }
