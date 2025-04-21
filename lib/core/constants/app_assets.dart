@@ -8,6 +8,9 @@ class AssetsPaths {
 class AppImages {
   static const String nadaLogo = '${AssetsPaths.images}/nada_logo.png';
   static const String nada = '${AssetsPaths.images}/nada.png';
+  static const String taslema = '${AssetsPaths.images}/taslema.jpeg';
+  static const String creativa = '${AssetsPaths.images}/creativa.jpeg';
+  static const String mediaMart = '${AssetsPaths.images}/media_mart.png';
 }
 
 class AppIcons {
