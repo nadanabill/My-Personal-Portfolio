@@ -1,4 +1,4 @@
-import '../../../../core/constants/app_assets.dart';
+import '../constants/app_assets.dart';
 
 class SocialIModel {
   final String icon;
