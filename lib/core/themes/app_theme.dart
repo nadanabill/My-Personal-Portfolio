@@ -7,4 +7,7 @@ ThemeData lightAppTheme(context) => ThemeData(
 
 ThemeData darkAppTheme(context) => ThemeData(
       scaffoldBackgroundColor: AppColors.darkGray,
+      iconTheme: const IconThemeData(color: AppColors.darkGray600),
+      iconButtonTheme: IconButtonThemeData(
+          style: IconButton.styleFrom(hoverColor: AppColors.logoColor)),
     );
