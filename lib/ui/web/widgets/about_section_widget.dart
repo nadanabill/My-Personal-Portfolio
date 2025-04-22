@@ -1,14 +1,12 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import '/ui/widgets/social_icons_widget.dart';
 import '/ui/web/widgets/image_widget.dart';
 
 import '../../../core/constants/app_assets.dart';
 import '../../../core/helpers/spaces.dart';
-import '../../../core/themes/app_colors.dart';
 import '../../../core/themes/app_text_styles.dart';
-import '../../../core/utils/utils.dart';
-import '../data/models/social_model.dart';
 
 class AboutSectionWidget extends StatelessWidget {
   const AboutSectionWidget({super.key});
@@ -60,25 +58,7 @@ class AboutSectionWidget extends StatelessWidget {
                   ],
                 ),
                 verticalSpace(40),
-                Row(
-                  children: [
-                    Wrap(
-                      children: socialIcons
-                          .map((e) => SizedBox(
-                                height: 40,
-                                width: 40,
-                                child: IconButton(
-                                  onPressed: () {
-                                    launchUrlFunction(e.link);
-                                  },
-                                  icon: Image.asset(e.icon),
-                                  hoverColor: AppColors.logoColor,
-                                ),
-                              ))
-                          .toList(),
-                    ),
-                  ],
-                ),
+                const SocialIconsWidget(),
               ],
             ),
           ),
