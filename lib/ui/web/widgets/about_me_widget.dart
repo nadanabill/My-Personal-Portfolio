@@ -1,5 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import '../../../core/helpers/global_keys.dart';
 import '/core/data/my_data.dart';
 import '/ui/web/widgets/title_box_widget.dart';
 
@@ -13,6 +14,7 @@ class AboutMeWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      key: GlobalKeys.aboutKey,
       color: AppColors.darkGray50,
       width: double.infinity,
       padding: const EdgeInsets.symmetric(horizontal: 140, vertical: 60),

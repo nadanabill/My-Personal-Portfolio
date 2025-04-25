@@ -1,5 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import '../../../core/helpers/global_keys.dart';
 import '/core/data/my_data.dart';
 import '/ui/web/widgets/skill_icon_widget.dart';
 
@@ -13,6 +14,7 @@ class SkillsSectionWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      key: GlobalKeys.skillsKey,
       padding: const EdgeInsets.symmetric(horizontal: 140, vertical: 60),
       child: Column(
         children: [

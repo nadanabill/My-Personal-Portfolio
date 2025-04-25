@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:easy_localization/easy_localization.dart';
+import '../../../core/helpers/global_keys.dart';
 import '/core/data/my_data.dart';
 
 import '../../../core/helpers/spaces.dart';
@@ -15,6 +16,7 @@ class ExperienceSectionWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      key: GlobalKeys.experienceKey,
       width: double.infinity,
       color: AppColors.darkGray50,
       padding: const EdgeInsets.symmetric(horizontal: 100, vertical: 60),

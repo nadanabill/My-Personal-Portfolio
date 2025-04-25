@@ -1,6 +1,8 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import '/core/data/my_data.dart';
+import '../../../core/helpers/global_keys.dart';
 import '/ui/web/widgets/header_text_button_widget.dart';
 
 import '../../../core/constants/app_assets.dart';
@@ -18,27 +20,70 @@ class WebHeaderWidget extends StatelessWidget {
       child: Row(
         children: [
           Image.asset(
-            AppImages.nadaLogo,
+            myData.logo,
             height: 100,
           ),
           const Spacer(),
-          HeaderTextButtonWidget(text: 'About'.tr(), onPressed: () {}),
-          horizontalSpace(10),
           HeaderTextButtonWidget(
-            onPressed: () {},
-            text: 'Work'.tr(),
+            text: 'About'.tr(),
+            onPressed: () {
+              Scrollable.ensureVisible(
+                GlobalKeys.aboutKey.currentContext!,
+                duration: const Duration(milliseconds: 200),
+                curve: Curves.easeInOut,
+              );
+            },
           ),
           horizontalSpace(10),
           HeaderTextButtonWidget(
-            onPressed: () {},
+            text: 'Skills'.tr(),
+            onPressed: () {
+              Scrollable.ensureVisible(
+                GlobalKeys.skillsKey.currentContext!,
+                duration: const Duration(milliseconds: 200),
+                curve: Curves.easeInOut,
+              );
+            },
+          ),
+          horizontalSpace(10),
+          HeaderTextButtonWidget(
+            text: 'Experience'.tr(),
+            onPressed: () {
+              Scrollable.ensureVisible(
+                GlobalKeys.experienceKey.currentContext!,
+                duration: const Duration(milliseconds: 200),
+                curve: Curves.easeInOut,
+              );
+            },
+          ),
+          horizontalSpace(10),
+          HeaderTextButtonWidget(
+            text: 'Projects'.tr(),
+            onPressed: () {
+              Scrollable.ensureVisible(
+                GlobalKeys.projectsKey.currentContext!,
+                duration: const Duration(milliseconds: 200),
+                curve: Curves.easeInOut,
+              );
+            },
+          ),
+          horizontalSpace(10),
+          HeaderTextButtonWidget(
             text: 'Contact'.tr(),
+            onPressed: () {
+              Scrollable.ensureVisible(
+                GlobalKeys.contactKey.currentContext!,
+                duration: const Duration(milliseconds: 200),
+                curve: Curves.easeInOut,
+              );
+            },
           ),
           horizontalSpace(10),
           IconButton(
             onPressed: () {},
             icon: SvgPicture.asset(AppIcons.darkModeIcon),
           ),
-          horizontalSpace(10),
+          horizontalSpace(5),
           SizedBox(
             height: 40,
             child: ElevatedButton(
