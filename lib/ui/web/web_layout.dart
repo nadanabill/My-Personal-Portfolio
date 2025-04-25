@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '/ui/web/widgets/projects_section_widget.dart';
 import '/ui/web/widgets/contact_section_widget.dart';
 import '/ui/web/widgets/experience_section_widget.dart';
 import '/ui/web/widgets/skills_section_widget.dart';
@@ -22,6 +23,7 @@ class WebLayout extends StatelessWidget {
         const AboutMeWidget(),
         const SkillsSectionWidget(),
         const ExperienceSectionWidget(),
+        const ProjectsSectionWidget(),
         const ContactSectionWidget(),
       ],
     );
