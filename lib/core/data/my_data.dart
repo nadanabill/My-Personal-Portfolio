@@ -6,7 +6,7 @@ import '../models/social_model.dart';
 import '../models/user_model.dart';
 
 final UserModel myData = UserModel(
-  name: 'Nada Nabil',
+  name: 'Nada',
   email: 'nadanabilhelmyy@gmail.com',
   logo: AppImages.nadaLogo,
   photo: AppImages.nada,
