@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_prsonal_portfolio/core/models/experience_model.dart';
+import '/core/models/experience_model.dart';
 
 import '../../../core/helpers/spaces.dart';
 import '../../../core/themes/app_colors.dart';

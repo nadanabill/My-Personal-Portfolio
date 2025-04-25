@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:my_prsonal_portfolio/ui/web/data/models/skills_model.dart';
+import '/core/models/skills_model.dart';
 
 import '../../../core/helpers/spaces.dart';
 import '../../../core/themes/app_text_styles.dart';

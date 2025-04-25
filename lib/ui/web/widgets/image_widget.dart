@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '/core/data/my_data.dart';
 import 'package:simple_shadow/simple_shadow.dart';
 
 import '../../../core/themes/app_colors.dart';
@@ -15,7 +16,7 @@ class ImageWidget extends StatelessWidget {
       child: ClipRRect(
         borderRadius: BorderRadius.circular(16),
         child: Image.network(
-          'https://avatars.githubusercontent.com/u/62355168?v=4',
+          myData.profile,
           width: 350,
           height: 350,
         ),

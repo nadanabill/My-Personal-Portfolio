@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 
 import 'package:easy_localization/easy_localization.dart';
+import '../../../core/helpers/global_keys.dart';
+import '/core/data/my_data.dart';
 
 import '../../../core/helpers/spaces.dart';
-import '../../../core/models/experience_model.dart';
 import '../../../core/themes/app_colors.dart';
 import '../../../core/themes/app_text_styles.dart';
 import 'experience_card_widget.dart';
@@ -15,6 +16,7 @@ class ExperienceSectionWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      key: GlobalKeys.experienceKey,
       width: double.infinity,
       color: AppColors.darkGray50,
       padding: const EdgeInsets.symmetric(horizontal: 100, vertical: 60),
@@ -28,7 +30,7 @@ class ExperienceSectionWidget extends StatelessWidget {
           ),
           verticalSpace(30),
           Column(
-            children: experiences
+            children: myData.experiences
                 .map((e) => ExperienceCardWidget(experience: e))
                 .toList(),
           ),

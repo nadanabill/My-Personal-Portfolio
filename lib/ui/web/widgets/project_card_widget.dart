@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:my_prsonal_portfolio/core/models/project_model.dart';
-import 'package:my_prsonal_portfolio/ui/widgets/project_tag_widget.dart';
+import '/core/models/project_model.dart';
+import '/ui/widgets/project_tag_widget.dart';
 
 import '../../../core/helpers/spaces.dart';
 import '../../../core/themes/app_colors.dart';
