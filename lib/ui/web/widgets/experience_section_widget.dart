@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 import 'package:easy_localization/easy_localization.dart';
+import '/core/data/my_data.dart';
 
 import '../../../core/helpers/spaces.dart';
-import '../../../core/models/experience_model.dart';
 import '../../../core/themes/app_colors.dart';
 import '../../../core/themes/app_text_styles.dart';
 import 'experience_card_widget.dart';
@@ -28,7 +28,7 @@ class ExperienceSectionWidget extends StatelessWidget {
           ),
           verticalSpace(30),
           Column(
-            children: experiences
+            children: myData.experiences
                 .map((e) => ExperienceCardWidget(experience: e))
                 .toList(),
           ),

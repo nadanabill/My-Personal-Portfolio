@@ -1,5 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import '/core/data/my_data.dart';
 
 import '../../../core/helpers/spaces.dart';
 import '../../../core/themes/app_colors.dart';
@@ -37,7 +38,7 @@ class ContactSectionWidget extends StatelessWidget {
               ),
               horizontalSpace(15),
               Text(
-                'nadanabilhelmyy@gmail.com',
+                myData.email,
                 style: AppTextStyles.font30SemiBoldDarkGray900(context),
               ),
               horizontalSpace(15),
@@ -45,7 +46,7 @@ class ContactSectionWidget extends StatelessWidget {
                 onPressed: () {
                   copyToClipboard(
                     context,
-                    'nadanabilhelmyy@gmail.com',
+                    myData.email,
                   );
                 },
                 icon: const Icon(Icons.copy_rounded, size: 35),

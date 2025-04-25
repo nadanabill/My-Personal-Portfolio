@@ -1,6 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import '/core/data/my_data.dart';
 import '/ui/widgets/social_icons_widget.dart';
 import '/ui/web/widgets/image_widget.dart';
 
@@ -25,11 +26,11 @@ class AboutSectionWidget extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 Text(
-                  'Hi, I’m Nada 👋'.tr(),
+                  'Hi, I’m ${myData.name} ',
                   style: AppTextStyles.font60BoldLogoColor(context),
                 ),
                 Text(
-                  'I’m a Flutter developer with three years of experience, Worked on real projects and trained more than 300 trainees on Flutter basics. I am looking for opportunities with an expert team of developers who will help advance my career progression in the future, and interested in learning new things that can benefit me and myself to improve in all aspects,',
+                  myData.about,
                   style: AppTextStyles.font16NormalDarkGray600(context),
                 ),
                 verticalSpace(40),
@@ -38,7 +39,7 @@ class AboutSectionWidget extends StatelessWidget {
                     SvgPicture.asset(AppIcons.locationIcon),
                     horizontalSpace(5),
                     Text(
-                      'Egypt'.tr(),
+                      myData.country,
                       style: AppTextStyles.font16NormalDarkGray600(context),
                     ),
                   ],
