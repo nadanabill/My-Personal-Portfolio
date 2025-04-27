@@ -81,4 +81,11 @@ class AppTextStyles {
         fontWeight: FontWeight.w500,
         color: AppColors.darkGray900,
       );
+
+  static TextStyle font36BoldLogoColor(context) => const TextStyle(
+        fontFamily: fontFamily,
+        fontSize: 36,
+        fontWeight: FontWeight.w700,
+        color: AppColors.logoColor,
+      );
 }
