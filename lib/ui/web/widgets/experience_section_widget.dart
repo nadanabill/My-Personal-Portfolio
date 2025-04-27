@@ -8,7 +8,7 @@ import '../../../core/helpers/spaces.dart';
 import '../../../core/themes/app_colors.dart';
 import '../../../core/themes/app_text_styles.dart';
 import 'experience_card_widget.dart';
-import 'title_box_widget.dart';
+import '../../widgets/title_box_widget.dart';
 
 class ExperienceSectionWidget extends StatelessWidget {
   const ExperienceSectionWidget({super.key});

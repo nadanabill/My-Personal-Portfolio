@@ -6,7 +6,7 @@ import '/core/data/my_data.dart';
 import '../../../core/helpers/spaces.dart';
 import '../../../core/themes/app_text_styles.dart';
 import 'project_card_widget.dart';
-import 'title_box_widget.dart';
+import '../../widgets/title_box_widget.dart';
 
 class ProjectsSectionWidget extends StatelessWidget {
   const ProjectsSectionWidget({super.key});
