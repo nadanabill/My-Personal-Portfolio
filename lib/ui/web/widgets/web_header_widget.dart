@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import '/core/data/my_data.dart';
 import '../../../core/helpers/global_keys.dart';
-import '/ui/web/widgets/header_text_button_widget.dart';
+import '../../widgets/header_text_button_widget.dart';
 
 import '../../../core/constants/app_assets.dart';
 import '../../../core/helpers/spaces.dart';
