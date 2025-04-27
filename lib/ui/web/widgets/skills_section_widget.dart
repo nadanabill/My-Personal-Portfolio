@@ -6,7 +6,7 @@ import '/ui/web/widgets/skill_icon_widget.dart';
 
 import '../../../core/helpers/spaces.dart';
 import '../../../core/themes/app_text_styles.dart';
-import 'title_box_widget.dart';
+import '../../widgets/title_box_widget.dart';
 
 class SkillsSectionWidget extends StatelessWidget {
   const SkillsSectionWidget({super.key});

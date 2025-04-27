@@ -8,7 +8,7 @@ import '../../../core/themes/app_colors.dart';
 import '../../../core/themes/app_text_styles.dart';
 import '../../../core/utils/utils.dart';
 import '../../widgets/social_icons_widget.dart';
-import 'title_box_widget.dart';
+import '../../widgets/title_box_widget.dart';
 
 class ContactSectionWidget extends StatelessWidget {
   const ContactSectionWidget({super.key});
