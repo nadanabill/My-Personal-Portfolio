@@ -75,6 +75,13 @@ class AppTextStyles {
         color: AppColors.darkGray900,
       );
 
+  static TextStyle font18SemiBoldDarkGray900(context) => const TextStyle(
+        fontFamily: fontFamily,
+        fontSize: 18,
+        fontWeight: FontWeight.w600,
+        color: AppColors.darkGray900,
+      );
+
   static TextStyle font30SemiBoldDarkGray900(context) => const TextStyle(
         fontFamily: fontFamily,
         fontSize: 30,
