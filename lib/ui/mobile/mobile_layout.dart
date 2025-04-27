@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '/ui/mobile/widgets/mobile_about_widget.dart';
 import '/ui/mobile/widgets/mobile_app_bar_widget.dart';
 
 class MobileLayout extends StatelessWidget {
@@ -6,9 +7,10 @@ class MobileLayout extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Column(
-      children: [
+    return ListView(
+      children: const [
         MobileAppBarWidget(),
+        MobileAboutWidget(),
       ],
     );
   }
