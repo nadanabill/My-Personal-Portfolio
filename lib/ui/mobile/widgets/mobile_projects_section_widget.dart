@@ -23,7 +23,9 @@ class MobileProjectsSectionWidget extends StatelessWidget {
           Text(
             'Some of the noteworthy projects I have built:'.tr(),
             style: AppTextStyles.font20NormalDarkGray600(context),
+            textAlign: TextAlign.center,
           ),
+          verticalSpace(15),
           Column(
             children: myData.projects
                 .map((e) => MobileProjectCardWidget(project: e))

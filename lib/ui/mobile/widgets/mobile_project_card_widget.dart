@@ -18,7 +18,7 @@ class MobileProjectCardWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(bottom: 15.0),
+      padding: const EdgeInsets.symmetric(vertical:  15.0),
       child: Column(
         children: [
           Container(
@@ -47,7 +47,7 @@ class MobileProjectCardWidget extends StatelessWidget {
               children: [
                 Text(
                   project.title,
-                  style: AppTextStyles.font20SemiBoldDarkGray900(context),
+                  style: AppTextStyles.font18SemiBoldDarkGray900(context),
                 ),
                 verticalSpace(15),
                 Text(
