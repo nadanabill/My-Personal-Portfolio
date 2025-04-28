@@ -39,9 +39,12 @@ class MobileContactSectionWidget extends StatelessWidget {
                 size: 35,
               ),
               horizontalSpace(15),
-              Text(
-                myData.email,
-                style: AppTextStyles.font18SemiBoldDarkGray900(context),
+              Expanded(
+                child: Text(
+                  myData.email,
+                  style: AppTextStyles.font18SemiBoldDarkGray900(context),
+                  textAlign: TextAlign.center,
+                ),
               ),
               horizontalSpace(15),
               IconButton(
