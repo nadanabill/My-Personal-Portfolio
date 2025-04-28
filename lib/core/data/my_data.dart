@@ -8,6 +8,8 @@ import '../models/user_model.dart';
 final UserModel myData = UserModel(
   name: 'Nada',
   email: 'nadanabilhelmyy@gmail.com',
+  cvLink:
+      'https://drive.google.com/file/d/1PBAzRJWFxXsxjrYKGQdKojhYVPyCJUAb/view?usp=sharing',
   logo: AppImages.nadaLogo,
   photo: AppImages.nada,
   profile: 'https://avatars.githubusercontent.com/u/62355168?v=4',

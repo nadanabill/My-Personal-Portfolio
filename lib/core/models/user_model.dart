@@ -6,6 +6,7 @@ import 'skills_model.dart';
 class UserModel {
   final String name;
   final String email;
+  final String cvLink;
   final String logo;
   final String photo;
   final String profile;
@@ -20,6 +21,7 @@ class UserModel {
   UserModel({
     required this.name,
     required this.email,
+    required this.cvLink,
     required this.logo,
     required this.photo,
     required this.profile,
