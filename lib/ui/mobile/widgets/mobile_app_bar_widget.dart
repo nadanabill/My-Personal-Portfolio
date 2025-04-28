@@ -10,12 +10,12 @@ class MobileAppBarWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(16.0),
+      padding: const EdgeInsets.symmetric(horizontal: 20),
       child: Row(
         children: [
           Image.asset(
             myData.logo,
-            height: 100,
+            height: 90,
           ),
           const Spacer(),
           IconButton(

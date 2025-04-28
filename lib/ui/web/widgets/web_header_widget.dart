@@ -16,7 +16,7 @@ class WebHeaderWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 80.0, vertical: 30),
+      padding: const EdgeInsets.only(left: 80.0, right: 80.0, top: 15),
       child: Row(
         children: [
           Image.asset(
