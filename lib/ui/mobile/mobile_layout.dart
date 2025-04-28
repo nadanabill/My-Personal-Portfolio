@@ -12,15 +12,21 @@ class MobileLayout extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListView(
-      children: const [
-        MobileAppBarWidget(),
-        MobileAboutWidget(),
-        MobileAboutMeSectionWidget(),
-        MobileSkillsSectionWidget(),
-        MobileExperienceSectionWidget(),
-        MobileProjectsSectionWidget(),
-        MobileContactSectionWidget(),
+    return Column(
+      children: [
+        const MobileAppBarWidget(),
+        Expanded(
+          child: ListView(
+            children: const [
+              MobileAboutWidget(),
+              MobileAboutMeSectionWidget(),
+              MobileSkillsSectionWidget(),
+              MobileExperienceSectionWidget(),
+              MobileProjectsSectionWidget(),
+              MobileContactSectionWidget(),
+            ],
+          ),
+        ),
       ],
     );
   }
