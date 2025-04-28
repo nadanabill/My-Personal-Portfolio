@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:my_prsonal_portfolio/ui/mobile/widgets/mobile_contact_section_widget.dart';
+import '/ui/mobile/widgets/mobile_contact_section_widget.dart';
 import '/ui/mobile/widgets/mobile_experience_section_widget.dart';
 import '/ui/mobile/widgets/mobile_skills_section_widget.dart';
 import '/ui/mobile/widgets/mobile_about_me_section_widget.dart';
 import '/ui/mobile/widgets/mobile_about_widget.dart';
 import '/ui/mobile/widgets/mobile_app_bar_widget.dart';
+import 'widgets/mobile_projects_section_widget.dart';
 
 class MobileLayout extends StatelessWidget {
   const MobileLayout({super.key});
@@ -18,6 +19,7 @@ class MobileLayout extends StatelessWidget {
         MobileAboutMeSectionWidget(),
         MobileSkillsSectionWidget(),
         MobileExperienceSectionWidget(),
+        MobileProjectsSectionWidget(),
         MobileContactSectionWidget(),
       ],
     );
