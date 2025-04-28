@@ -95,7 +95,7 @@ class WebHeaderWidget extends StatelessWidget {
                 ),
               ),
               onPressed: () {
-              launchUrlFunction('https://drive.google.com/file/d/1AMvaKq2DRdrarcpS7Voa_LGck-qxivXr/view?usp=sharing');
+              launchUrlFunction(myData.cvLink);
               },
               child: Text(
                 'Download CV'.tr(),
