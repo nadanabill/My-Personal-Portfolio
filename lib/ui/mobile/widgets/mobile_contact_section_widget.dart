@@ -19,7 +19,7 @@ class MobileContactSectionWidget extends StatelessWidget {
       key: GlobalKeys.contactKey,
       width: double.infinity,
       color: AppColors.darkGray50,
-      padding: const EdgeInsets.symmetric(horizontal: 140, vertical: 60),
+      padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 60),
       child: Column(
         children: [
           TitleBoxWidget(text: 'Get in touch'.tr()),
@@ -39,9 +39,12 @@ class MobileContactSectionWidget extends StatelessWidget {
                 size: 35,
               ),
               horizontalSpace(15),
-              Text(
-                myData.email,
-                style: AppTextStyles.font18SemiBoldDarkGray900(context),
+              Expanded(
+                child: Text(
+                  myData.email,
+                  style: AppTextStyles.font18SemiBoldDarkGray900(context),
+                  textAlign: TextAlign.center,
+                ),
               ),
               horizontalSpace(15),
               IconButton(

@@ -15,16 +15,22 @@ class WebLayout extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListView(
+    return Column(
       children: [
         const WebHeaderWidget(),
-        const AboutSectionWidget(),
-        verticalSpace(30),
-        const AboutMeWidget(),
-        const SkillsSectionWidget(),
-        const ExperienceSectionWidget(),
-        const ProjectsSectionWidget(),
-        const ContactSectionWidget(),
+        Expanded(
+          child: ListView(
+            children: [
+              const AboutSectionWidget(),
+              verticalSpace(30),
+              const AboutMeWidget(),
+              const SkillsSectionWidget(),
+              const ExperienceSectionWidget(),
+              const ProjectsSectionWidget(),
+              const ContactSectionWidget(),
+            ],
+          ),
+        ),
       ],
     );
   }

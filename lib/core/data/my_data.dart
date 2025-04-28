@@ -64,10 +64,6 @@ List<SkillsModel> skills = [
     image: 'assets/icons/gitlab.svg',
   ),
   SkillsModel(
-    title: 'Google Play Console',
-    image: 'assets/icons/google_play_console.svg',
-  ),
-  SkillsModel(
     title: 'Android Studio',
     image: 'assets/icons/android_studio.svg',
   ),
@@ -82,6 +78,10 @@ List<SkillsModel> skills = [
   SkillsModel(
     title: 'Figma',
     image: 'assets/icons/figma.svg',
+  ),
+  SkillsModel(
+    title: 'Google Play Console',
+    image: 'assets/icons/google_play_console.svg',
   ),
 ];
 
