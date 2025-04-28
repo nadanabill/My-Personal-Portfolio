@@ -22,6 +22,7 @@ class MobileSkillsSectionWidget extends StatelessWidget {
           verticalSpace(10),
           Text(
             'The skills, tools and technologies:'.tr(),
+            textAlign: TextAlign.center,
             style: AppTextStyles.font18NormalDarkGray600(context),
           ),
           verticalSpace(30),

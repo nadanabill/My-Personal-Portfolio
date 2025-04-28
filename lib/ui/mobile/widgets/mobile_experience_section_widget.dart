@@ -25,6 +25,7 @@ class MobileExperienceSectionWidget extends StatelessWidget {
           verticalSpace(15),
           Text(
             'Here is a quick summary of my most recent experiences:'.tr(),
+            textAlign: TextAlign.center,
             style: AppTextStyles.font18NormalDarkGray600(context),
           ),
           verticalSpace(30),
