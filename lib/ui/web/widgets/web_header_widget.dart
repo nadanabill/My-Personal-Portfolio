@@ -1,6 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import '../../../core/utils/utils.dart';
 import '/core/data/my_data.dart';
 import '../../../core/helpers/global_keys.dart';
 import '../../widgets/header_text_button_widget.dart';
@@ -93,7 +94,9 @@ class WebHeaderWidget extends StatelessWidget {
                   borderRadius: BorderRadius.circular(12),
                 ),
               ),
-              onPressed: () {},
+              onPressed: () {
+              launchUrlFunction('https://drive.google.com/file/d/1AMvaKq2DRdrarcpS7Voa_LGck-qxivXr/view?usp=sharing');
+              },
               child: Text(
                 'Download CV'.tr(),
                 style: AppTextStyles.font16MediumDarkGray50(context),
