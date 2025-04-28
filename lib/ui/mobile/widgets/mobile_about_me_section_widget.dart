@@ -17,7 +17,7 @@ class MobileAboutMeSectionWidget extends StatelessWidget {
       key: GlobalKeys.aboutKey,
       color: AppColors.darkGray50,
       width: double.infinity,
-      padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 60),
+      padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 60),
       child: Column(
         children: [
           TitleBoxWidget(text: 'About Me'.tr()),

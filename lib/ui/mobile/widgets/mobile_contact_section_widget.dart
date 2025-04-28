@@ -19,7 +19,7 @@ class MobileContactSectionWidget extends StatelessWidget {
       key: GlobalKeys.contactKey,
       width: double.infinity,
       color: AppColors.darkGray50,
-      padding: const EdgeInsets.symmetric(horizontal: 140, vertical: 60),
+      padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 60),
       child: Column(
         children: [
           TitleBoxWidget(text: 'Get in touch'.tr()),

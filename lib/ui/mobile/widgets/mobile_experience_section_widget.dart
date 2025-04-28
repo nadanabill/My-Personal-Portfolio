@@ -18,7 +18,7 @@ class MobileExperienceSectionWidget extends StatelessWidget {
       key: GlobalKeys.experienceKey,
       width: double.infinity,
       color: AppColors.darkGray50,
-      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 60),
+      padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 60),
       child: Column(
         children: [
           TitleBoxWidget(text: 'Experience'.tr()),

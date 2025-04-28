@@ -15,7 +15,7 @@ class MobileAboutWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 40),
+      padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 40),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         mainAxisAlignment: MainAxisAlignment.start,
