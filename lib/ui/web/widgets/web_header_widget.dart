@@ -1,12 +1,10 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import '../../../core/utils/utils.dart';
 import '/core/data/my_data.dart';
 import '../../../core/helpers/global_keys.dart';
 import '../../widgets/header_text_button_widget.dart';
 
-import '../../../core/constants/app_assets.dart';
 import '../../../core/helpers/spaces.dart';
 import '../../../core/themes/app_colors.dart';
 import '../../../core/themes/app_text_styles.dart';
@@ -80,11 +78,6 @@ class WebHeaderWidget extends StatelessWidget {
             },
           ),
           horizontalSpace(10),
-          IconButton(
-            onPressed: () {},
-            icon: SvgPicture.asset(AppIcons.darkModeIcon),
-          ),
-          horizontalSpace(5),
           SizedBox(
             height: 40,
             child: ElevatedButton(
@@ -95,7 +88,7 @@ class WebHeaderWidget extends StatelessWidget {
                 ),
               ),
               onPressed: () {
-              launchUrlFunction(myData.cvLink);
+                launchUrlFunction(myData.cvLink);
               },
               child: Text(
                 'Download CV'.tr(),

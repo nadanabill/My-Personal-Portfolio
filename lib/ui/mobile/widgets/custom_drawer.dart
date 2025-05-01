@@ -1,10 +1,8 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import '../../../core/utils/utils.dart';
 import '/ui/widgets/header_text_button_widget.dart';
 
-import '../../../core/constants/app_assets.dart';
 import '../../../core/data/my_data.dart';
 import '../../../core/helpers/global_keys.dart';
 import '../../../core/helpers/spaces.dart';
@@ -104,20 +102,6 @@ class CustomDrawer extends StatelessWidget {
             const Divider(
               color: AppColors.darkGray100,
               thickness: 1,
-            ),
-            verticalSpace(15),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Text(
-                  'Switch Theme'.tr(),
-                  style: AppTextStyles.font16MediumDarkGray600(context),
-                ),
-                IconButton(
-                  onPressed: () {},
-                  icon: SvgPicture.asset(AppIcons.darkModeIcon),
-                ),
-              ],
             ),
             verticalSpace(15),
             SizedBox(
