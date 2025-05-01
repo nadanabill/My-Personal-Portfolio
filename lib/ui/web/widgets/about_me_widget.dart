@@ -22,28 +22,9 @@ class AboutMeWidget extends StatelessWidget {
         children: [
           TitleBoxWidget(text: 'About Me'.tr()),
           verticalSpace(20),
-          Row(
-            children: [
-              Container(
-                height: 320,
-                width: 320,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(15),
-                ),
-                clipBehavior: Clip.antiAlias,
-                child: Image.asset(
-                  fit: BoxFit.cover,
-                  myData.photo,
-                ),
-              ),
-              horizontalSpace(80),
-              Expanded(
-                child: Text(
-                  myData.profileSummary,
-                  style: AppTextStyles.font16NormalDarkGray600(context),
-                ),
-              ),
-            ],
+          Text(
+            myData.profileSummary,
+            style: AppTextStyles.font16NormalDarkGray600(context),
           ),
         ],
       ),

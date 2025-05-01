@@ -12,12 +12,12 @@ final UserModel myData = UserModel(
       'https://drive.google.com/file/d/1PBAzRJWFxXsxjrYKGQdKojhYVPyCJUAb/view?usp=sharing',
   logo: AppImages.nadaLogo,
   photo: AppImages.nada,
-  profile: 'https://avatars.githubusercontent.com/u/62355168?v=4',
+  profile: 'https://media.licdn.com/dms/image/v2/D4D03AQFE64YEZybfsw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1730149556556?e=1751500800&v=beta&t=TTNHjqeSx6ETyvsfRQ4ZsTp3xRmINpx42-Wi-8g6NF8',
   socialLinks: socialIcons,
   about:
       'I’m a Flutter developer with three years of experience, Worked on real projects and trained more than 300 trainees on Flutter basics. I am looking for opportunities with an expert team of developers who will help advance my career progression in the future, and interested in learning new things that can benefit me and myself to improve in all aspects,',
   profileSummary:
-      'I am a passionate Flutter developer with three years of experience in building robust mobile applications. My journey began with a strong foundation in Computer Science, which I pursued at Minya University, where I graduated with a Bachelor’s degree in 2022. Since then, I have honed my skills through hands-on projects and training sessions, working with expert teams to deliver high-quality solutions.\n\nAs a developer, I thrive on solving complex problems and creating intuitive user experiences. Whether it\'s maintaining codebases, fixing bugs, or optimizing performance, I bring a meticulous approach to every task. My expertise lies in Flutter, Dart, Firebase, and state management patterns like Bloc and MVVM, which I leverage to build scalable and efficient applications.\n\nBeyond technical skills, I am an avid learner who stays updated with the latest trends in mobile development. I enjoy collaborating with diverse teams and mentoring others, having trained over 250 trainees on Flutter basics. Outside of work, I find joy in exploring new technologies, contributing to open-source projects, and sharing my knowledge through workshops and online courses.\nHere are some quick bits about me:\n   * Education : Bachelor’s degree in Computer Science from Minya University (2018–2022)\n   * Skills : Flutter, Dart, Firebase, Bloc, MVVM, Git/GitHub, RESTFUL APIs\n   * Interests : Problem-solving, UI/UX design, mentorship, and continuous learning\nIf you\'re looking for a dedicated Flutter developer who is eager to learn and grow, feel free to reach out! I’m always open to freelance opportunities and excited to collaborate on exciting projects.',
+      'I am a passionate Flutter developer with three years of experience in building robust mobile applications. My journey began with a strong foundation in Computer Science, which I pursued at Minya University, where I graduated with a Bachelor’s degree in 2022. Since then, I have honed my skills through hands-on projects and training sessions, working with expert teams to deliver high-quality solutions.\n\nAs a developer, I thrive on solving complex problems and creating intuitive user experiences. Whether it\'s maintaining codebases, fixing bugs, or optimizing performance, I bring a meticulous approach to every task. My expertise lies in Flutter, Dart, Firebase, and state management patterns like Bloc and MVVM, which I leverage to build scalable and efficient applications.\n\nBeyond technical skills, I am an avid learner who stays updated with the latest trends in mobile development. I enjoy collaborating with diverse teams and mentoring others, having trained over 250 trainees on Flutter basics. Outside of work, I find joy in exploring new technologies, contributing to open-source projects, and sharing my knowledge through workshops and online courses.\n\nHere are some quick bits about me:\n• Education : Bachelor’s degree in Computer Science from Minya University (2018–2022)\n• Skills : Flutter, Dart, Firebase, Bloc, MVVM, Git/GitHub, RESTFUL APIs\n• Interests : Problem-solving, UI/UX design, mentorship, and continuous learning\n\nIf you\'re looking for a dedicated Flutter developer who is eager to learn and grow, feel free to reach out! I’m always open to freelance opportunities and excited to collaborate on exciting projects.',
   country: 'Egypt',
   skills: skills,
   experiences: experiences,
@@ -355,9 +355,9 @@ List<ExperienceModel> experiences = [
     duration: 'Sep 2022 - Feb 2023',
   ),
   ExperienceModel(
-    title: 'Mobile App Development Instructor',
+    title: 'Mobile App Instructor | Mentor',
     description:
-        'Give 25 workshops to trainees about an introduction to Mobile Development with Flutter',
+        '• Trained 300+ trainees in mobile app development and Flutter.\n• Conducted 26+ workshops on Flutter and app development.\n• Taught basics of mobile apps.\n• Introduced Flutter for cross-platform development.\n• Helped resolve technical issues.\n• Provided mentorship and learning strategies for continuous growth.',
     image: AppImages.creativa,
     type: 'Contract',
     duration: 'Feb 2023 - Present',

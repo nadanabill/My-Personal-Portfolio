@@ -22,21 +22,6 @@ class MobileAboutMeSectionWidget extends StatelessWidget {
         children: [
           TitleBoxWidget(text: 'About Me'.tr()),
           verticalSpace(25),
-          Container(
-            height: 320,
-            width: 320,
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(15),
-            ),
-            clipBehavior: Clip.antiAlias,
-            child: Image.asset(
-              fit: BoxFit.cover,
-              myData.photo,
-              height: 200,
-              width: 200,
-            ),
-          ),
-          verticalSpace(40),
           Text(
             myData.profileSummary,
             style: AppTextStyles.font16NormalDarkGray600(context),
