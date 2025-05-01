@@ -12,12 +12,13 @@ class MainPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       key: GlobalKeys.mainKey,
-      endDrawer: MediaQuery.sizeOf(context).width < 1000
-          ? const CustomDrawer()
-          : null,
-      body: AdaptiveLayout(
-        mobileLayout: (context) => const MobileLayout(),
-        webLayout: (context) => const WebLayout(),
+      endDrawer:
+          MediaQuery.sizeOf(context).width < 1000 ? const CustomDrawer() : null,
+      body: SelectionArea(
+        child: AdaptiveLayout(
+          mobileLayout: (context) => const MobileLayout(),
+          webLayout: (context) => const WebLayout(),
+        ),
       ),
     );
   }
